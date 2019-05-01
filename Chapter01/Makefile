@@ -1,8 +1,8 @@
 
 GCC := g++
 
-OUTPUT := ch01_mt_example
-SOURCES := $(wildcard *.cpp)
+OUTPUT := ch01_mt_example_tong
+SOURCES := ch01_mt_example_tong.cpp
 CCFLAGS := -std=c++11 -pthread
 
 all: $(OUTPUT)
